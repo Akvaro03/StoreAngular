@@ -1,28 +1,18 @@
 import { Injectable } from '@angular/core';
 import { isEmpty } from 'rxjs';
+import { StateService } from './state.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class OrdenadorProductosService {
-  productos : any = [];
+  productos : object = [];
   cont : number = 0;
   // intento:any;
-  constructor() { }
-
-  setArray(array: any) {
-    
-    if (Object.keys(array).length === 0) {
-      console.log("esta vacio");
-    } else {
-      this.productos = array;
-    }
-
-    console.log("termina");
-    this.ordenar()
+  constructor(public store:StateService) {
   }
-    
+
   ordenar(){ 
-    console.log(this.productos)
+    this.productos = this.store.getValor()
   }
 }

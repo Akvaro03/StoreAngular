@@ -11,6 +11,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { OrdenarComponent } from './components/ordenar/ordenar.component';
 
 import {HttpClientModule} from '@angular/common/http';
+import { CarritoNavComponent } from './components/carrito-nav/carrito-nav.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import {HttpClientModule} from '@angular/common/http';
     SideBarComponent,
     ProductsComponent,
     OrdenarComponent,
+    CarritoNavComponent,
   ],
   imports: [
     BrowserModule,

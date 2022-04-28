@@ -1,0 +1,24 @@
+<div style="display: block; position: relative;" id="divCarrito">
+    <p id="numeroCarrito">1</p>
+    <i  class="fas fa-cart-arrow-down fa-lg"></i>
+    <div id="carrito">
+      <p class="carritoTitulo">Carrito</p>
+      <table id="lista-carrito" class="u-full-width container">
+          <thead class="container">
+              <tr>
+                <th>Imagen</th>
+                <th>Producto</th>
+                <th>Precio</th>
+              </tr>
+          </thead>
+          <tbody  *ngFor="let producto of productosCarrito" id="listCarrito" style="padding: top 40px;">
+                <td><img class="container-fluid" [src]="producto.foto" alt=""></td>
+                <td>{{producto.name}} </td>
+                <td>{{producto.precio}}</td>
+                <hr>
+          </tbody>
+      </table>
+      <a href="#" id="vaciar-carrito"
+      class="button u-full-width">vaciar carrito</a>
+  </div>
+  </div>

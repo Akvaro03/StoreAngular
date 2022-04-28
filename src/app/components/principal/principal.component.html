@@ -1,0 +1,11 @@
+<div id="noseeeee" class="container-fluid  row mt-4" style="">
+    <div class="col-3 contenedor-sideBar">
+        <app-side-bar></app-side-bar>
+    </div>
+    <div class="col-8 contenedor-productos">
+        <app-ordenar></app-ordenar>
+        <div id="productos33" class="cuadrilla2 mt-4">
+            <app-products [producto]="producto" *ngFor="let producto of productos"></app-products>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,135 @@
+[{
+    "name": "Procesador AMD RYZEN 5 3600 4.2GHz",
+    "id": 1,
+    "category": "cpu_amd",
+    "precio": 32150,
+    "foto": "assets/fotos/procesadorAmd1.jpg"
+},
+{
+    "name": "Procesador AMD Ryzen 5 1600 AF",
+    "id": 2,
+
+    "category": "cpu_amd",
+    "precio": 32330,
+    "foto": "assets/fotos/procesadorAmd2.jpg"
+
+},
+{
+    "name": "Procesador AMD RYZEN 7 3800XT",
+    "id": 3,
+
+    "category": "cpu_amd",
+    "precio": 56380,
+    "foto": "assets/fotos/procesadorAmd3.jpg"
+},
+{
+    "name": "Procesador Intel Core i3 10100 4.3GHz",
+    "id": 4,
+    "category": "cpu_intel",
+    "precio": 19430,
+    "foto": "assets/fotos/procesadorIntel1.jpg"
+},
+{
+    "name": "Procesador Intel Core i7 9700F 4.7GHz",
+    "id": 5,
+    "category": "cpu_intel",
+    "precio": 31950,
+    "foto": "assets/fotos/procesadorIntel2.jpg"
+},
+
+{
+    "name": "Procesador Intel Core i5 10400F 4.3GHz",
+    "id": 6,
+    "category": "cpu_intel",
+    "precio": 20760,
+    "foto": "assets/fotos/procesadorIntel3.jpg"
+},
+
+{
+    "name": "Mother Asrock X370M-HDV AM4",
+    "id": 7,
+    "category": "mother_amd",
+    "precio": 6450,
+    "foto": "assets/fotos/motherAmd1.png"
+},
+{
+    "name": "Mother Gigabyte GA-A320M-S2H",
+    "id": 8,
+    "category": "mother_amd",
+    "precio": 7870,
+    "foto": "assets/fotos/motherAmd2.png"
+},
+
+{
+    "name": "Mother ASUS ROG STRIX X570-E",
+    "id": 9,
+    "category": "mother_amd",
+    "precio": 58490,
+    "foto": "assets/fotos/motherAmd3.png"
+},
+{
+    "name": "Mother ASUS ROG MAXIMUS Z690",
+    "id": 10,
+    "category": "mother_intel",
+    "precio": 295040,
+    "foto": "assets/fotos/motherIntel1.png"
+},
+{
+    "name": "Mother Gigabyte H410M H V3 S1200",
+    "id": 11,
+    "category": "mother_intel",
+    "precio": 11890,
+    "foto": "assets/fotos/motherIntel2.png"
+},
+
+{
+    "name": "Mother MSI H310M PRO-VDH",
+    "id": 12,
+    "category": "mother_intel",
+    "precio": 8796,
+    "foto": "assets/fotos/motherIntel3.png"
+},
+{
+    "name": "Memoria GeiL DDR4 16GB 3000MHz",
+    "id": 13,
+    "category": "memoria_ram",
+    "precio": 9999,
+    "foto": "assets/fotos/memoriaRam1-removebg-preview.png"
+},
+{
+    "name": "Memoria Adata DDR4 4GB 2666MHz",
+    "id": 14,
+    "category": "memoria_ram",
+    "precio": 3488,
+    "foto": "assets/fotos/memoriaRam2.png"
+},
+{
+    "name": "Memoria Adata DDR4 8GB 2666MHz",
+    "id": 15,
+    "category": "memoria_ram",
+    "precio": 6080,
+    "foto": "assets/fotos/memoriaRam3.png"
+},
+{
+    "name": "Memoria Adata DDR4 16GB 2666Mhz",
+    "id": 16,
+    "category": "memoria_soddimm",
+    "precio": 8990,
+    "foto": "assets/fotos/memoriaSodimm1.png"
+},
+{
+    "name": "Memoria Team DDR4 16GB (2x8GB) 3200MHz",
+    "id": 17,
+    "category": "memoria_soddimm",
+    "precio": 11360,
+    "foto": "assets/fotos/memoriaSodimm2.png"
+},
+{
+    "name": "Memoria Team DDR4 32GB (2x16GB) 3200MHz",
+    "id": 18,
+    "category": "memoria_soddimm",
+    "precio": 20420,
+    "foto": "assets/fotos/memoriaSodimm3.png"
+}
+
+]

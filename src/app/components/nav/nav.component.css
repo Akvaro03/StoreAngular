@@ -1,0 +1,94 @@
+nav{
+    font-family: "Montserrat", sans-serif;
+}
+.nav1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    z-index: 30;
+    display: flex;
+    /* grid-template-columns: 2fr 1fr; */
+    color: white;
+    justify-content: space-between;
+    align-items: baseline
+} 
+.marca{
+    padding-left: 5%;
+}
+
+.logo{
+    /* background: rgba(255, 255, 255, 0.) */
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    z-index: 30;
+    padding-top: 12px;
+    padding-bottom: 0px;
+    letter-spacing: 2px;
+} 
+.categorias{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;  
+}  
+.categorias div:nth-child(2){
+    padding-right: 38px;
+  }
+  
+#divCarrito:hover #numeroCarrito{
+    transform: scale(1.1);
+    transition: transform 350ms;
+}
+#divCarrito:hover .fa-cart-arrow-down{
+    transform: scale(1.1);
+    transition: transform 350ms;
+}
+.fa-cart-arrow-down{
+  padding-top: 7px;
+}
+
+#numeroCarrito{
+    z-index: 15;
+    position: absolute;
+    top: 0;
+    left: 18%;
+    background: rgb(74, 8, 255);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2px;
+    }
+    #divCarrito #carrito {
+        display: none;
+      }
+    
+      #divCarrito:hover #carrito , #divCarrito #carrito:hover{
+        display: block;
+        color: white;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        z-index: 1;
+        background: #17181b;
+        padding: 20px;
+        z-index: 35;
+      }
+    
+      .carritoTitulo{
+        text-align: center;
+        font-size:20px;
+      }
+    
+      #carrito th{
+        border-bottom: 1px solid white; 
+        z-index: 35;
+      }
+    
+      #carrito{
+        width: 250px;
+        z-index: 35;
+      }

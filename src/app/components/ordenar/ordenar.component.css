@@ -1,0 +1,9 @@
+select {
+    position: relative;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    padding: 4px;
+    color: rgb(184, 184, 184);
+    font-size: 19px;
+}

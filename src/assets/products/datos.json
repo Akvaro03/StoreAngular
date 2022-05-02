@@ -3,7 +3,7 @@
     "id": 1,
     "category": "cpu_amd",
     "precio": 32150,
-    "foto": "assets/fotos/procesadorAmd1.jpg"
+    "foto": "assets/fotos/procesadorAmd1.png"
 },
 {
     "name": "Procesador AMD Ryzen 5 1600 AF",
@@ -11,7 +11,7 @@
 
     "category": "cpu_amd",
     "precio": 32330,
-    "foto": "assets/fotos/procesadorAmd2.jpg"
+    "foto": "assets/fotos/procesadorAmd2.png"
 
 },
 {

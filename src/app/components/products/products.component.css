@@ -96,12 +96,25 @@
   border-radius: 30px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  transition: 0.5s;
+  transition: 0.7s;
+  
 }
-
+.carta .contentBox .buy:hover{
+  background: #009eaf;
+  transform: scale(1.07);
+}
 .carta:hover .contentBox .buy {
   top: 0;
   opacity: 1;
+}
+.animate{
+  animation-name: example;
+  animation-duration: 1s;
+}
+@keyframes example {
+  0%   {transform: scale(1.07);}
+  50%  {transform: scale(1.13);box-shadow: 2px 4px 5px 0px rgba(255,255,255,0.75);}
+  100% {transform: scale(1.07);}
 }
 
 .carta:hover .mouse{

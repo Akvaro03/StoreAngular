@@ -1,7 +1,6 @@
 import { CarritoService } from 'src/app/services/carrito.service';
 import { Component, OnInit } from '@angular/core';
 import { productModel } from 'src/app/Models/product';
-import { fromEvent } from 'rxjs';
 
 
 @Component({
@@ -20,5 +19,13 @@ export class CarritoNavComponent implements OnInit {
     this.carrito.productsBeha.subscribe((dato)=>{this.productosCarrito = dato})
     // fromEvent(document, 'keydown').subscribe((event: any) => {console.log(event);})
 
+  }
+
+  vaciarCarrito(){
+    this.productosCarrito = []
+  }
+
+  comprar(){
+    
   }
 }

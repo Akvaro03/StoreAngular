@@ -26,7 +26,24 @@ export class ProductsComponent implements OnInit {
 
   ngOnInit(): void {
     this.productos = this.producto;
-
+  //   botones.forEach(element => {
+  //     element.addEventListener("click", (e) => {
+  //         e.preventDefault();
+  //         console.log(e.target);
+  //     })
+  // })
+  
+  }
+  animation(){
+    console.log(this.producto.id);
+    // let button = document.querySelectorAll("buy");
+    
+    let boton = document.getElementById(this.producto.id)
+    boton!.classList.remove('animate')
+    setTimeout(() => boton!.classList.add('animate'), 100)
+  
+    console.log(boton);
+    // boton.addEventListener("click", (e) => console.log(e));
   }
   agregarAlCarrito(){
     this.carrito.añadirAlCarrito(this.productos)

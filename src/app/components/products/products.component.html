@@ -7,6 +7,6 @@
     <div class="contentBox">
       <h3>{{productos.name}}</h3>
       <h2 class="price">{{productos.precio}}</h2>
-      <a href="#" class="buy" id="14" (click)="agregarAlCarrito()">Buy Now</a>
+      <a href="#" class="buy" [id]="productos.id" (click)="animation()" (click)="agregarAlCarrito()">Buy Now</a>
     </div>
   </div>    

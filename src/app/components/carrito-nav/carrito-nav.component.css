@@ -1,3 +1,6 @@
+#carrito{
+  border-radius: 20px
+}
 
 #divCarrito:hover #numeroCarrito{
     transform: scale(1.1);
@@ -67,4 +70,25 @@
 
 hr{
   border-bottom: 2px solid #ccc;
+}
+.divCarrito{
+  display:flex;
+  justify-content:center;
+  gap: 10px;
+}
+.button{
+  background: rgb(46, 87, 85);
+  border-radius:20px;
+  padding: 8px;
+  color: rgb(216, 216, 216);
+  transition: transform 350ms;
+}
+.button:hover{
+  transform: scale(1.1);
+  transition: transform 350ms;
+}
+
+#vaciar-carrito{
+  padding: 8px;
+  color: rgb(216, 216, 216);
 }

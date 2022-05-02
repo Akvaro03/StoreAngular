@@ -9,7 +9,6 @@ import { BehaviorSubject } from 'rxjs';
 export class CarritoService {
   public products: any = [];
   public productsBeha: BehaviorSubject<any> = new BehaviorSubject(this.products);
-
   // public observalbe : Observable<any> = this.products.asObservable();
   constructor() { }
   

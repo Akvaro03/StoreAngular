@@ -1,5 +1,5 @@
 <div style="display: block; position: relative;" id="divCarrito">
-    <p id="numeroCarrito">1</p>
+    <p id="numeroCarrito">{{productosCarrito.length}}</p>
     <i  class="fas fa-cart-arrow-down fa-lg"></i>
     <div id="carrito">
       <p class="carritoTitulo">Carrito</p>
@@ -16,9 +16,13 @@
                 <td>{{producto.name}} </td>
                 <td>{{producto.precio}}</td>
                 <hr>
-          </tbody>
+          </tbody> 
       </table>
-      <a href="#" id="vaciar-carrito"
-      class="button u-full-width">vaciar carrito</a>
+      <div  class="pt-3 divCarrito">
+        <p href="#" id="vaciar-carrito"
+        class="button u-full-width " (click)="comprar()">Comprar</p>  
+        <p href="#" id="vaciar-carrito"
+        class="u-full-width " (click)="vaciarCarrito()">Vaciar carrito</p>  
+      </div>
   </div>
   </div>
